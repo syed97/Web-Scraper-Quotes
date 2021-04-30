@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+#quote_card{
+    margin: auto;
+    margin-top: 7.5%;
+    border: 2px solid black;
+    width: 50%;
+    height: 300px;
+    
+}
+
+#quote_card > div {
+    height: 50%;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+div#quote{
+    /* margin-top: 80px; */
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+div#name{
+    margin-right: 30px;
+    text-align: right;
+    font-style: italic;
+    font-size: 1.5em;
+}
