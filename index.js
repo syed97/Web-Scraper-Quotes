@@ -16,7 +16,7 @@ $.getJSON( "data.json", function(data){
     document.getElementById("quote").innerHTML = q_arr[count];
     document.getElementById("name").innerHTML = n_arr[count];
 });
-
+    
 document.getElementById("b_prev").addEventListener("click", go_prev);
 document.getElementById("b_next").addEventListener("click", go_next);
 

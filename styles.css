@@ -30,3 +30,33 @@ div#name{
     font-style: italic;
     font-size: 1.5em;
 }
+
+#right{
+    display: inline-block;
+    border: 2px solid black;
+    position: relative;
+    width: 120px;
+    height: 20%;
+    left: 90%;
+    top: -90%;
+}
+
+#left{
+    display: inline-block;
+    border: 2px solid black;
+    position: relative;
+    width: 120px;
+    height: 600px;
+    left: -30%;
+    top: -90%;
+}
+
+#b_next{
+    position: relative;
+    left: 68%;
+}
+
+#b_prev{
+    position: relative;
+    left: 25%;
+}
